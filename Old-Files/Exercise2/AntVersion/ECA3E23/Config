@@ -1,0 +1,74 @@
+% Setup target instances of TTP problems that should be solved (default = "1").
+% 0 = Running all files below
+% 1 = "instance/eil101_n100_bounded-strongly-corr_01.ttp"
+% 2 = "instance/eil101_n100_bounded-strongly-corr_06.ttp"
+% 3 = "instance/eil101_n100_bounded-strongly-corr_10.ttp"
+% 4 = "instance/eil101_n500_bounded-strongly-corr_01.ttp"
+% 5 = "instance/eil101_n500_bounded-strongly-corr_06.ttp"
+% 6 = "instance/eil101_n500_bounded-strongly-corr_10.ttp"
+% 7 = "instance/eil101_n1000_bounded-strongly-corr_01.ttp"
+% 8 = "instance/eil101_n1000_bounded-strongly-corr_06.ttp"
+% 9 = "instance/eil101_n1000_bounded-strongly-corr_10.ttp"
+Input_Instance = "1";
+
+% Setup target front file of PWT (default = "1").
+% 0 = Running all files below
+% 1 = "instance/eil101_n100_bounded-strongly-corr_01.ttp.front"
+% 2 = "instance/eil101_n100_bounded-strongly-corr_06.ttp.front"
+% 3 = "instance/eil101_n100_bounded-strongly-corr_10.ttp.front"
+% 4 = "instance/eil101_n500_bounded-strongly-corr_01.ttp.front"
+% 5 = "instance/eil101_n500_bounded-strongly-corr_06.ttp.front"
+% 6 = "instance/eil101_n500_bounded-strongly-corr_10.ttp.front"
+% 7 = "instance/eil101_n1000_bounded-strongly-corr_01.ttp.front"
+% 8 = "instance/eil101_n1000_bounded-strongly-corr_06.ttp.front"
+% 9 = "instance/eil101_n1000_bounded-strongly-corr_10.ttp.front"
+Input_Front = "1";
+
+% Setup algorithm chosen (default = "SPEA2").
+% Options are listed below:
+% "SPEA2"
+% "IBEA"
+% "NSGA2"
+Algorithm = "SPEA2";
+
+% Setup crossover operators (default = "GroupPointCrossover")
+% Options are listed below:
+% "GroupPointCrossover"
+% "SinglePointCrossover"
+% "UniformCrossover"
+% "ReducedSurrogateCrossover"
+% "ArithmeticCrossover"
+% "HUXCrossover"
+CrossoverOperator = "GroupPointCrossover"
+
+% Setup mutation operators (default = "BitFlipMutation")
+% Options are listed below:
+% "BitFlipMutation"
+% "DynamicBitFlipMutation"
+% "InterchangingMutation"
+% "OneBitFlipMutation"
+% "ReversingMutation"
+% "GreedyMutation"
+MutationOperator = "ReversingMutation"
+
+% Setup Number_of_Population (default = "20").
+Number_of_Population = "20";
+
+% Setup dynamic Item Set Mode: 
+% 1 = Dynamic item mode ON
+% 2 = Dynamic item mode OFF (default)
+Dynamic_Item_Mode = "1";
+
+% Setup target version of benchmark, each data sets has two dynamic item benchmark (default = "1").
+% 1 = Run First version of benchmark
+% 2 = Run Second version of benchmark
+Dynamic_Item_Benchmark = "1";
+
+% Setup total number of generations per run (default = "1000").
+Generations = "50";
+
+% Setup total number of runs (default = "10" runs)
+runs = "10";
+
+% Setup tour
+Tour = "instance/eil101.linkern.tour"

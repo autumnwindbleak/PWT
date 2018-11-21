@@ -1,0 +1,55 @@
+## Evolutionary Computation ##
+## Assignment 3 ##
+## Group ##
+Student Name: Puzhi Yao
+Student ID: a1205593
+Student Email: a1205593@student.adelaide.edu.au
+---------------------
+Student Name: Jingwen Wei 
+Student ID: a1671836
+Student Email: a1671836@student.adelaide.edu.au
+---------------------
+Student Name: Zhuoying Li
+Student ID: a1675725
+Student Email: a1675725@student.adelaide.edu.au
+---------------------
+Student Name: Xueyang Wang
+Student ID: a1690260
+Student Email: a1690260@student.adelaide.edu.au
+
+## Instructions ##
+## Prerequisite ##
+Make sure run this program on Linux.
+Make sure ANT is installed in your computer.
+
+## Error Handler 01 ##
+If your terminal shows the error message like 'cant find ant command'
+please install ant.
+
+## Error Handler 02 ##
+If you use and IDE such as Eclipse, you have copy all files and folder
+into your target project folder, and refreash project view in Eclipse.
+At the same time, add TTP-forDistribution.jar into library path.
+
+## Assignment 3 : Exercise 2 ##
+## For Terminal Execution ##
+
+1. Open terminal
+
+2. cd to PWT/Exercise2/
+
+3. Type "ant" in terminal to compile all files
+
+4. Type "ant ECA3Ex2" in terminal to Run the program
+
+5. Check the result file in the current path (e.g. "~/PWT/Exercise2/csvResults/" & "~/PWT/Exercise2/errorResults/") 
+
+6. The folder, `instances`, contains all instances for Exercise 2.
+
+7. Program will automatically run 36 combinations of algorithms, crossover operators and mutation operators.
+
+8. If you want to run single combination of one algorithm, one crossover and one mutation
+   Then, comment test() function in main and uncomment Run() function.
+   All argument inputs can be set in config file.
+
+## Instruction END ##

@@ -1,0 +1,12 @@
+1000,IBEA,HUXCrossover,BitFlipMutation,RunNum=1,17.77
+,NSGA2,UniformCrossover,OneBitFlipMutation,RunNum=8,25.98
+,SPEA2,UniformCrossover,ReversingMutation,RunNum=4,37.46
+10000,IBEA,HUXCrossover,InterchangingMutation,RunNum=8,0.07
+,SPEA2,HUXCrossover,OneBitFlipMutation,RunNum=5,13.56
+,NSGA2,HUXCrossover,InterchangingMutation,RunNum=2,14.53
+50000,IBEA,UniformCrossover,ReversingMutation,RunNum=1,0.02
+,SPEA2,SinglePointCrossover,OneBitFlipMutation,RunNum=2,7.09
+,NSGA2,SinglePointCrossover,InterchangingMutation,RunNum=1,7.71
+100000,IBEA,SinglePointCrossover,InterchangingMutation,RunNum=1,0.01
+,SPEA2,HUXCrossover,InterchangingMutation,RunNum=4,7.36
+,NSGA2,UniformCrossover,InterchangingMutation,RunNum=7,13.54
